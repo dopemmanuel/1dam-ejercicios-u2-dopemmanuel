@@ -14,12 +14,15 @@ try:
 except ZeroDivisionError:
     print("Error: No puedes dividir entre cero")   
 """
+def numero_dividir():
 
-num1 = int(input("Ingrese el numero a dividir: "))
-num2 = int(input("Ingrese el segundo numero divisor: "))
+    num1 = int(input("Ingrese el numero a dividir: "))
+    num2 = int(input("Ingrese el segundo numero divisor: "))
 
-if num2 == 0: 
-    print("Error: No puedes dividir entre cero")
-else:
-    div = num1 / num2
-    print("El resultado es", div)
+    if num2 == 0: 
+        print("Error: No puedes dividir entre cero")
+    else:
+        div = num1 / num2
+        print("El resultado es", div)
+
+numero_dividir()

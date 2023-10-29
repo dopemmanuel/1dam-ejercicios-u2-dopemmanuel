@@ -28,7 +28,8 @@ elif contraseña == Pass6 :
 
 else:
     print("Incorrecto!!")
-"""
+
+#este me dio un dolo de huevos y de cabeza... :)
 
 def verificar_contraseña(contraseña):
     contraseñas = {
@@ -55,3 +56,27 @@ while True:
         continuar = input("Desea intentarlo de nuevo? (SI/NO): ")
         if continuar.lower() != "si":
             break
+"""
+
+def verificar_contraseña():
+    contraseñas = {
+        "Usuario_Tarde": "CORRECTO!!",
+        "4358": "Correcto papu!!",
+        "Password": "Correct yoo got an ice cream",
+        "Prog_DAM": "Incorret- naaaa mentiras, Es CORRECTO",
+        "GITHUB": "cOrEcToOoOoOoOoOoO!!",
+        "Porfin emma se aprendio el Pseudocodigo con Python": "Sii aprendio(le falta aprender), y si acabas de introducir la contraseña correcta",
+    }
+
+    while True:
+        contraseña = input("Introduzca la contraseña: ")
+        if contraseña in contraseñas:
+            print(contraseñas[contraseña])
+            return True
+        else:
+            print("Incorrecto")
+            continuar = input("Desea intentarlo de nuevo? (SI/NO): ")
+            if continuar.lower() != "si":
+                return False
+
+verificar_contraseña()
