@@ -14,6 +14,7 @@ else:
 """
 
 def mostrar_palabra_n_veces(n=10):
+    
     palabra = input("Ingresa la palabra: ")
     for _ in range(n):
         print(palabra)
