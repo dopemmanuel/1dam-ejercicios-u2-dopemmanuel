@@ -8,7 +8,8 @@ def tabla_de_multiplicar():
         for i in range(1,11):
             resultado = num1 * i
             print("", num1, "x", i,"=", resultado,)
-        else:
+        
+    else:
             for i in range(1,11):
                 print("Tabla de multiplicar del", i)
                 for k in range(1,11):
