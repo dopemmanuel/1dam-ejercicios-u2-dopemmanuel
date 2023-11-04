@@ -24,4 +24,9 @@ if cantidad:
     amount = int(cantidad)
     mostrar_palabra_n_veces(amount)
 else:
+
+    def main():
+        print("Escribir un programa que pida al usuario una palabra y la muestre por pantalla 10 veces:")
     mostrar_palabra_n_veces()
+if __name__ == "__main__":
+    main()
