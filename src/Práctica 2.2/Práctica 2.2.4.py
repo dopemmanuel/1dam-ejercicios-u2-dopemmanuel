@@ -1,19 +1,18 @@
-def invertir():
+def numeros_cuenta_atras():
+        
+        num2 = int(input("Ingrese el numero: "))
+        
+        if num2 < 0:
+            print("El numero ingresado no es positivo")
+        else:
+            cuenta_atras = list(range(num2,-1,-1))
+            atras =', '.join(map(str, cuenta_atras))
+            print("Cuenta regresiva:", atras)
 
-    cantidad = int(input("Ingrese la cantidad a invertir: "))
-    taza = int(input("Ingrese el interes anual: "))
-    años = int(input("Ingrese los años: "))
 
-    intereses = taza / 100
-
-    for años in range(1, años + 1):
-        cantidad *= 1 + intereses
-        print("Año:", años, "y Capital obtenido =", cantidad)
-        print("Capital total al final de", años,"años: ", cantidad)
 
 def main():
-    print("Escribir un programa que pregunte al usuario una cantidad a invertir, el interés anual y el número de años, y muestre por pantalla el capital obtenido en la inversión cada año que dura la inversión:")
-    invertir()
+    print("Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla la cuenta atrás desde ese número hasta cero separados por comas: ")
+    numeros_cuenta_atras()
 if __name__ == "__main__":
-    
     main()
