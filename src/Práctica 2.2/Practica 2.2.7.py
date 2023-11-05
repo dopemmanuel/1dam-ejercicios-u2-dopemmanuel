@@ -14,7 +14,7 @@ def tabla_de_multiplicar():
                 print("Tabla de multiplicar del", i)
                 for k in range(1,11):
                     resultado = i * k
-                print("", i,"x", k,"=",resultado)
+                    print("", i,"x", k,"=",resultado)
 
 def main():
     print("Escribir un programa que muestre por pantalla la tabla de multiplicar del 1 al 10:")
