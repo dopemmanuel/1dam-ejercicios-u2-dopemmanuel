@@ -1,4 +1,10 @@
-def suma():
+"""
+()^_____^)
+"""
+def sumar():
+    """
+    ()O.O)
+    """
     try:     
         num1 = int(input("Ingrese el primer numero: "))
         num2 = int(input("ingrese el segundo numero: "))
@@ -6,12 +12,10 @@ def suma():
         suma = num1 + num2
         print("Su resultado es: ", suma)
     except ValueError:
-        print("Error Solo se utilizan numeros")
-    else:
-        print("ERROR 404 numero no encontrado")
+        print("ERROR Solo se utilizan numeros （︶^︶（）")
 
 def main():
     print("Suma: ")
-    suma()
+    sumar()
 if __name__ == "__main__":
     main()

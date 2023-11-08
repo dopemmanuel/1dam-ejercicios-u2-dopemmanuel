@@ -1,9 +1,9 @@
 """
-docstring... esto solo es de detalle
+()O_O)
 """
 def pedir_edad():
     """
-    Docstring...esto solo es de detalle
+    ()>.<)
     """
     while True:
         try:
@@ -14,7 +14,7 @@ def pedir_edad():
             else:
 #¯\_(ツ)_/¯:
                 if edad > 100:
-                    print("EN SERIO??!!", edad,"años, pos ya stas viejo ( ͡° ͜ʖ ͡°)")
+                    print("EN SERIO??!! (。_。)", edad,"años, pos ya stas viejo (X_X) ")
                 break
 
         except ValueError:
