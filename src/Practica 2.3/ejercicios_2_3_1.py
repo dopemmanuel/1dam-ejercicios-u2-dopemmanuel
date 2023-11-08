@@ -12,7 +12,7 @@ def pedir_edad():
             for a in range(1, edad + 1):
                 print("Has cumplido",a ,"años")
             else:
-#¯\_(ツ)_/¯: 
+#¯\_(ツ)_/¯:
                 if edad > 100:
                     print("EN SERIO??!!", edad,"años, pos ya stas viejo ( ͡° ͜ʖ ͡°)")
                 break
