@@ -22,4 +22,6 @@ def evaluacion_puntuacion():
             print("ERROR: eso no es un formato numerico...")
 def main():
     print("")
-evaluacion_puntuacion()
+    evaluacion_puntuacion()
+if __name__=="__main__":
+    main()

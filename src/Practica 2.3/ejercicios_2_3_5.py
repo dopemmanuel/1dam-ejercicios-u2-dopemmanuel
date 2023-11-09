@@ -6,13 +6,13 @@ def Pass_words():
     ()⌐■_■)
     """
     while True:
-        Pass1 = "Usuario_Tarde"
+        Pass1 = "Usuario Tarde"
         contraseña = input("Introduzca la contraseña: ")
 
         if contraseña != Pass1:
             print("Incorrect Password!!, try again...  🍷(˘︹˘()")
         else:
-            print("BRAAAVOO... CORRECTO (✪ ω ✪)") 
+            print("BRAAAVOO... CORRECTO (✪ ω ✪)")
             break  
 
 def main():
@@ -27,4 +27,3 @@ def main():
 
 if __name__=="__main__":
     main()
-   

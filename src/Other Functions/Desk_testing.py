@@ -7,7 +7,7 @@ desktop_path = os.path.expanduser("~/Desktop")
 contenido = "Hola, mundo!"
 
 # Creamos el archivo en el escritorio
-with open(os.path.join(desktop_path, "(⌐■_■).txt"), "w") as archivo:
+with open(os.path.join(desktop_path, "(⌐■_■)"), "w") as archivo:
     archivo.write(contenido)
 
 print("El archivo 'Hola' ha sido creado en el escritorio.")
