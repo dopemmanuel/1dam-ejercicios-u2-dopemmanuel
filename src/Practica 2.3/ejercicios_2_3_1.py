@@ -14,7 +14,7 @@ def pedir_edad():
             else:
 #¯\_(ツ)_/¯:
                 if edad > 100:
-                    print("EN SERIO??!! (。_。)", edad,"años, pos ya stas viejo (X_X) ")
+                    print("EN SERIO??!! (。_ 。)", edad,"años, eso es imposible...(X_X) ")
                 break
 
         except ValueError:

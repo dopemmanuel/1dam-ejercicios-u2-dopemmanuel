@@ -18,7 +18,7 @@ def numero_entero():
                 print("El número ingresado no es positivo. Por favor, ingresa un número entero positivo")
 
         except ValueError:
-            print("ERROR: el digito ingresado no des valido(￣︿￣*()")
+            print("ERROR: el digito ingresado no des valido... (￣︿￣*()")
 def main():
     print("Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla todos los números impares desde 1 hasta ese número separados por comas:")
     numero_entero()
