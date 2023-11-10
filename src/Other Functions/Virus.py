@@ -6,7 +6,7 @@ def virus():
 
     print("¡Tu PC ha sido infectada por el virus! Para eliminarlo, ingresa la contraseña correcta.")
 
-    password = "Virus"
+    password = ""
     while True:
         char = msvcrt.getch().decode("utf-8")
         if char == "\r":
@@ -14,10 +14,10 @@ def virus():
         password += char
         print("*", end="")
 
-    print()  # Nueva línea después de ingresar la contraseña
+    print(" (X_X() Correcto")  # Nueva línea después de ingresar la contraseña
 
-    if password == "contraseña_secreta":
-        print("Virus eliminado. Tu PC está a salvo ahora.")
+    if password == "virus":
+        print("Virus eliminado. Tu PC está a salvo ahora. (ノ｀Д)ノ")
     else:
         print("Contraseña incorrecta. El virus persiste... ヾ(⌐■_■)ノ♪")
 
