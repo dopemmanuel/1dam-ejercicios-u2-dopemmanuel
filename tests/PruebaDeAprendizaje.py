@@ -12,4 +12,4 @@ while True:
 
     for i in range(num):
         print(i)
-        break
+        break 
