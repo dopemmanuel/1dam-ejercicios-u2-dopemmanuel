@@ -22,9 +22,9 @@ def pedir_edad():
 
 def main():
     """
-    Docstring... esto solo es de detalle
+    ヾ(⌐■_■)ノ♪
     """
-    print("Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que ha cumplido (desde 1 hasta su edad): ")
+    print("(☞ﾟヮﾟ)☞ Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que ha cumplido (desde 1 hasta su edad): ")
     pedir_edad()
 if __name__=="__main__":
     main()
