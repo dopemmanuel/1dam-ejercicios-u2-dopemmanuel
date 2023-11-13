@@ -8,8 +8,6 @@ if __name__ == "__main__":
 """
 #Esto es para comprender mejor lo de "range" ignoralo:
 num = input("Dame un numero: ")
-while True:
 
-    for i in range(num):
-        print(i)
-        break 
+for i in range(1, 10 + 1):
+    print(i, end=" ")
