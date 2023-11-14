@@ -1,3 +1,4 @@
+#esto no es real.
 import msvcrt
 import ctypes
 
@@ -14,7 +15,7 @@ def virus():
         password += char
         print("*", end="")
 
-    print(" (X_X() Correcto")  # Nueva línea después de ingresar la contraseña
+    print(" (X_X() Correcto")
 
     if password == "virus":
         print("Virus eliminado. Tu PC está a salvo ahora. (ノ｀Д)ノ")
