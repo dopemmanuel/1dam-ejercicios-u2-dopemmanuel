@@ -7,6 +7,9 @@ def carga():
     """
     import time 
     def animation(interaciones = 8 , retraso = 5.90):
+        """
+        (⌐■_■):
+        """
         for _ in range(interaciones):
             print("📁→",end="📂",flush=True)
         time.sleep(retraso)
