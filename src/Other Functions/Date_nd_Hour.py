@@ -1,10 +1,10 @@
-
 """
-()^_____^)
+()♨_♨)
 """
-import time
-while True:
+def hora():
+    import time
+    while True:
 
-    tiempo_trascurrido = time.strftime("%H:%M:%S")   
-    print(tiempo_trascurrido, end="\r")
-    time.sleep(1)
+        tiempo_trascurrido = time.strftime("%H:%M:%S")   
+        print(tiempo_trascurrido, end="\r")
+        time.sleep(.5)
