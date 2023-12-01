@@ -103,5 +103,5 @@ print(mensaje)
 """
 #
 """
-
+para hacer que .append pueda generar uno o mas numeros se requiere crearle una variable
 """
