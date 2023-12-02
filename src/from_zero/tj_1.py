@@ -65,8 +65,11 @@ def area_de_un_triangulo():
 
 def main():
     nombre_y_edad()
-    
     sumar()
     multi()
     intercambiar_entre_variables()
     area_de_un_triangulo()
+
+    
+if __name__=="__main__":
+    main()
