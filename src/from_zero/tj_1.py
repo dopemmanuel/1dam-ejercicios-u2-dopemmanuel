@@ -27,12 +27,14 @@ def multi():
     while True:
         try:
             num3 = int(input("Ingresa el numero para multiplicar:"))
+            if num3 < 0:
+                break
             for i in range(1, 11):
                 mult = num3 * i
                 print(num3, 'x', i, '=', mult)
         except ValueError:
             print("ERROR: solo valores numericos")
-
+            
 #Ejercicio 4:
 def intercambiar_entre_variables():
     while True:
@@ -61,8 +63,10 @@ def area_de_un_triangulo():
         except ValueError:
             print("ERROR SOLO VALORES NUMERICOS")
 
-nombre_y_edad()
-sumar()
-multi()
-intercambiar_entre_variables()
-area_de_un_triangulo()
+def main():
+    nombre_y_edad()
+    
+    sumar()
+    multi()
+    intercambiar_entre_variables()
+    area_de_un_triangulo()
